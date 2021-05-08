@@ -3,7 +3,7 @@ package com.hongpro.coding.datastrucures.queue;
 import java.util.Scanner;
 
 /**
- * TODO
+ * TODO 队列
  *
  * @author zhangzihong
  * @data 2021/3/18 19:44

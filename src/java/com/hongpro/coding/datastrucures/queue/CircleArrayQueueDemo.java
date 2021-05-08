@@ -1,7 +1,7 @@
 package com.hongpro.coding.datastrucures.queue;
 
 /**
- * TODO
+ * TODO 环形队列
  *
  * @author zhangzihong
  * @data 2021/3/19 10:12

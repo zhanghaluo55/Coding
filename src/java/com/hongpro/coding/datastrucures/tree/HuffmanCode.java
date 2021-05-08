@@ -4,6 +4,9 @@ import java.io.*;
 import java.nio.charset.StandardCharsets;
 import java.util.*;
 
+/**
+ * 哈夫曼编码
+ */
 public class HuffmanCode {
     public static void main(String[] args) {
         String str = "i like like like java do you like a java";

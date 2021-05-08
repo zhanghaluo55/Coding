@@ -2,6 +2,9 @@ package com.hongpro.coding.datastrucures.hastable;
 
 import java.util.Scanner;
 
+/**
+ * 哈西表法
+ */
 public class HashtableDemo {
     public static void main(String[] args) {
         Hashtable hashtable = new Hashtable(7);

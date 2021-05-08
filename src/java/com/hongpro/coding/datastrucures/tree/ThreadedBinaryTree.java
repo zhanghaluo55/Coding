@@ -1,5 +1,8 @@
 package com.hongpro.coding.datastrucures.tree;
 
+/**
+ * 线索化二叉树
+ */
 public class ThreadedBinaryTree {
 
 }

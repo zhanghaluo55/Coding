@@ -3,7 +3,7 @@ package com.hongpro.coding.datastrucures.sort;
 import java.util.Arrays;
 
 /**
- * TODO
+ * TODO 快排
  *
  * @author zhangzihong
  * @data 2021/3/27 16:58

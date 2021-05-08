@@ -1,5 +1,8 @@
 package com.hongpro.coding.datastrucures.tree;
 
+/**
+ * 二叉树
+ */
 public class BinaryTreeDemo {
     public static void main(String[] args) {
 
