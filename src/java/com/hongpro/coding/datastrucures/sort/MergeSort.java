@@ -1,5 +1,7 @@
 package com.hongpro.coding.datastrucures.sort;
 
+import java.util.Arrays;
+
 /**
  * TODO 并归排序
  *
@@ -8,8 +10,9 @@ package com.hongpro.coding.datastrucures.sort;
  */
 public class MergeSort {
     public static void main(String[] args) {
-        int[] arr = {10,52,5,1,-100,800,400,40};
-
+        int[] arr = {10, 52, 5, 1, -100, 800, 400, 40};
+        mergeSort(arr, 0, arr.length - 1, new int[arr.length]);
+        System.out.println(Arrays.toString(arr));
     }
 
     public static void mergeSort(int[] arr, int left, int right, int[] temp) {
@@ -37,7 +40,7 @@ public class MergeSort {
         int j = mid + 1;
         int t = 0;
 
-        while (i < mid && j <= right) {
+        while (i <= mid && j <= right) {
             if (arr[i] <= arr[j]) {
                 temp[t] = arr[i];
                 t++;
@@ -55,7 +58,7 @@ public class MergeSort {
             i++;
         }
 
-        while (j <= mid) {
+        while (j <= right) {
             temp[t] = arr[j];
             t++;
             j++;
